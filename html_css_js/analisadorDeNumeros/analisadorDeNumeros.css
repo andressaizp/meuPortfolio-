@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(224, 154, 49);
+    text-align: center;
+    font: normal 18px Arial;
+}
+header {
+    background-color:white;
+    margin: 0 200px;
+    border-radius: 30px;
+}
+
+#analiseDados, #listaNumeros {
+    line-height: 30px;
+    text-align: center;
+    background-color: white;
+    margin: 20px 300px;
+    border-radius: 30px;
+}
+
+footer{
+    margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        font: normal 15px Arial;
+    }
+    header {
+        margin: 0 50px;
+    }
+    
+    #analiseDados, #listaNumeros {
+        line-height: 50px;
+        margin: 20px 50px;
+    }
+    
+    footer{
+        margin: 20px;
+    }
+}
+

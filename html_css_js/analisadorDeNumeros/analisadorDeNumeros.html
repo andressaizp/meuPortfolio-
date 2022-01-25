@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de números</title>
+    <link rel="stylesheet" href="analisadorDeNumeros.css">
+</head>
+<body>
+    <header>
+        <h1>Analisador de números</h1>
+    </header>
+    <div>
+        <p>Digite um número de zero a 100:</p>
+        <input type="number" name="numero" id="numeroEscolhido">
+        <input type="button" value="Adicionar" id="adicionar" onclick="adicionar()">
+    </div>
+
+    <div>
+        <p id="listaNumeros"></p>
+    </div>
+
+    <div>
+        <input type="button" value="Analisar" onclick="analisar()">
+    </div>
+    
+    <div>
+    <p id="analiseDados"></p>
+    </div>
+
+    
+    <footer>
+        &copy;AndressaIzp
+    </footer>
+    
+<script src="analisadorDeNumeros.js"></script>
+</body>
+
+</html>

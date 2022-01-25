@@ -1,0 +1,40 @@
+body {
+    background-color: blanchedalmond;
+    text-align: center;
+    font: normal 18px Arial;
+}
+header {
+    background-color: rgb(241, 179, 102);
+    margin: 0 200px;
+    border-radius: 30px;
+}
+
+#mensagem {
+    line-height: 30px;
+    text-align: center;
+    background-color: white;
+    margin: 20px 500px;
+    border-radius: 30px;
+}
+
+footer{
+    margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font: normal 18px Arial;
+    }
+
+    header {
+        margin: auto 20px;
+        border-radius: 30px;
+        font-size: 15px;
+    }
+    
+    #mensagem {
+        text-align: center;
+        margin: 20px 100px;
+    }
+    
+}
